@@ -1,18 +1,18 @@
 calculator = input("enter an operator (+ - * /): ")
-num1 = float(input("Enter the 1st number: " ))
+num1 = float(input("Enter the 1st number: "))
 num2 = float(input("Enter the 2nd number: "))
 
-if operator == "+":
+if calculator == "+":
     result = num1 + num2
-    print(result, 3)
-elif operator == "-":
+    print(result)
+elif calculator == "-":
     result = num1 - num2
-    print(result, 3)
-elif operator == "*":
+    print(result)
+elif calculator == "*":
     result = num1 * num2
-    print(result, 3)
-elif operator == "/":
+    print(result)
+elif calculator == "/":
     result = num1 / num2
-    print(result, 3)
+    print(result)
 else:
-    print(f"{operator} is not a valid operator")
+    print(f"{calculator} is not a valid operator")
