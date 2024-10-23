@@ -1,4 +1,6 @@
-x = 10 ** 2
+x = 10 * 2
+print (x)
 y = 10 + x + 11
-z = x + y
+print(y)
+z = y + x
 print(z)
