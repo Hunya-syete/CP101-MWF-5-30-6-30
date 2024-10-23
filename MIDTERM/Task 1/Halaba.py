@@ -13,7 +13,7 @@ def calculator():
     if operator == operators[1]:
         return number1 - number2
     if operator == operators[2]:
-        re+*turn number1 * number2
+        return number1 * number2
     if operator == operators[3]:
         return number1 / number2
 
