@@ -1,0 +1,40 @@
+def add_data(given):
+    naming = input("\nENTER KEY: ")
+    value = input("ENTER VALUE: ")
+    given[naming] = value
+    print(f"ADDED: '{naming}' : '{value}'")
+
+def data_result(data):
+    print("\nDATA RECORDS:")
+    for key, value in data.items():
+        print(f"{key} : {value}")
+
+def main():
+    data = {}
+
+    while True:
+        print("\n<============== DATA SELECTION =================>")
+        print("""
+    1. ADD DATA
+    2. DELETE DATA
+    3. END""")
+        samp = input("\nSELECT DATA BY GIVEN: ")
+
+        if samp == '1':
+            add_data(data)
+            data_result(data)
+        elif samp == '2':
+            key = input("\nENTER KEY TO DELETE: ")  
+            if key in data: 
+                del data[key]  
+                print(f"DELETED: {key}")
+            else:
+                print("KEY NOT FOUND.")
+        elif samp == '3':
+            print("THANK YOU!")
+            break
+        else:
+            print("DATA CANNOT DEFINE!")
+
+if __name__ == "__main__":
+    main()
