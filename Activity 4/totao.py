@@ -1,5 +1,5 @@
 sampleText1 = "My name is {}. I love {}. I love playing {}. {}"
-sampleText1a = sampleText1.format("kean", "Watching Videos", "Mobile Legends" , "Apple")
+sampleText1a = sampleText1.format("jay", "Watching Videos", "Mobile Legends" , "Apple")
 
 print(sampleText1a)
 
@@ -9,5 +9,5 @@ sampleText2a = sampleText2.format("Puzzle", "Jamaica", "Watching Videos", "Mobil
 print(sampleText2a)
 
 sampleText3 = "My name is {name}. I love {food}. I love playing {play}."
-sampleText3a = sampleText3.format(food="Fries", play="Mobile legends", name="kean")
+sampleText3a = sampleText3.format(food="Fries", play="Mobile legends", name="Jay")
 print(sampleText3a)

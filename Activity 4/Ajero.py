@@ -1,5 +1,5 @@
 sampleText1 = "My name is {}. I love {}. I love playing {}. {}"
-sampleText1a = sampleText1.format("kean", "Watching Videos", "Mobile Legends" , "Apple")
+sampleText1a = sampleText1.format("jay", "Watching Videos", "Mobile Legends" , "Apple")
 
 print(sampleText1a)
 
